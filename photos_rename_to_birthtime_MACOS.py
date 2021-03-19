@@ -1,3 +1,7 @@
+# Renames .jpg (& .png) files in dir
+# to YYYYMMDD_hhmmss.jpg (or .png)
+# based on birthtime.
+
 from datetime import datetime
 import os, sys
 
